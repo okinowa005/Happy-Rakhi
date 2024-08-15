@@ -3,5 +3,5 @@ document.getElementById('main-image').addEventListener('click', function() {
     setTimeout(function() {
         document.getElementById('main-image').classList.add('hidden');
         document.getElementById('message').classList.remove('hidden');
-    }, 10000); // 10 seconds delay
+    }, 10000); // 5 seconds delay
 });
